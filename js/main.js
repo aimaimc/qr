@@ -24,7 +24,7 @@ const getURLParam = (name, url) => {
 }
 //GETのstandに1が指定されているならQRに対して垂直に立たせる
 //e.g. https://hogehoge?stand=1
-const stand = (getURLParam("stand") == 1) ? true : false; 
+const stand = (getURLParam("stand") == 1) true; 
 
 let renderer, scene, camera;
 let arToolkitSource, arToolkitContext;
