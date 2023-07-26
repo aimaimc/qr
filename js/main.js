@@ -163,7 +163,7 @@ const loadModel = async () => {
 			//別のgltfからモーションを借用。本来は不要な処理
 			//http://examples.claygl.xyz/examples/basicModelAnimation.html
 			const boneLoader = new THREE.GLTFLoader();
-			boneLoader.load("assets/SambaDancing.gltf", function(bone){
+			boneLoader.load("assets/motion.gltf", function(bone){
 				const animations = bone.animations;
 				if(animations && animations.length){
 					for(let animation of animations){
