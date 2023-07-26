@@ -1,9 +1,9 @@
 //モデルの位置
 const posX = 0;
 const posY = 0;
-const posZ = 0.5;
+const posZ = -2;
 //モデルのサイズ
-const scale = 1;
+const scale = 1.5;
 
 //黒枠の幅（ジェネレータのPatternRatioと合わせる）
 const patternRatio = 0.9;
