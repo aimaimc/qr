@@ -1,7 +1,7 @@
 //モデルの位置
 const posX = 0;
 const posY = 0;
-const posZ = -100;
+const posZ = -50;
 //モデルのサイズ
 const scale = 2;
 
